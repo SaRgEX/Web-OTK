@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>OTK</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1>OTK</h1>
+            <div class="dropdown">
+
+                <button class="dropbtn" onclick="toggleMenu()">Каталог</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#1">Упаковка для суши</a></li>
+                        <li><a href="#2">Упаковка для тортов</a></li>
+                        <li><a href="#2">ланч-боксы</a></li>
+                        <li><a href="#2">Другие упаковки</a></li>
+                    </ul>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Поиск">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+
+            <div class="profile" onclick="showAuthorizationDialog()">
+                <a>
+                    <div class="image">
+                        <img src="images/profile.png" alt="profile">
+                    </div>
+                    <p>Профиль</p>
+                </a>
+            </div>
+            <div class="order" onclick="setToken()">
+                <div class="image" id="order">
+                    <img src="images/order.png" alt="orders">
+                </div>
+                <p>Заказы</p>
+            </div>
+            <div class="favourite">
+                <div class="image">
+                    <img src="images/favourite.png" alt="favourite">
+                </div>
+                <a>Избранное</a>
+            </div>
+            <div class="cart">
+                <div class="image">
+                    <img src="images/cart.png" alt="cart">
+                </div>
+                <a>Корзина</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+
+    </div>
+    <div id="authorizationDialog" class="dialog-overlay" style="display: none">
+        <div class="dialog-box">
+            <div class="dialog-title">Authorization</div>
+            <input type="text" class="dialog-input" placeholder="Login" id="login">
+            <input type="password" class="dialog-input" placeholder="Password" id="password">
+            <div class="dialog-buttons">
+                <button onclick="cancelAuthorization()">Cancel</button>
+                <button onclick="performAuthorization()">Authorize</button>
+            </div>
+        </div>
+    </div>
+    <script src="static/script/burger_menu.js"></script>
+    <script src="static/script/authorization.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>

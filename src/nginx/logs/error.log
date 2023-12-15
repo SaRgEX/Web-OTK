@@ -1,0 +1,85 @@
+2023/12/15 05:36:05 [notice] 23004#15892: signal process started
+2023/12/15 05:36:05 [error] 23004#15892: CreateFile() "E:\Dimlom\Diplom\Web\src\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/15 05:36:21 [notice] 28028#13172: signal process started
+2023/12/15 05:36:21 [error] 28028#13172: CreateFile() "E:\Dimlom\Diplom\Web\src\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/15 05:37:28 [notice] 28756#7628: signal process started
+2023/12/15 05:37:28 [error] 28756#7628: invalid PID number "" in "E:\Dimlom\Diplom\Web\src\nginx/logs/nginx.pid"
+2023/12/15 05:38:10 [notice] 7464#24468: signal process started
+2023/12/15 05:38:10 [error] 7464#24468: CreateFile() "E:\Dimlom\Diplom\Web\src\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/15 05:38:49 [notice] 3988#2300: signal process started
+2023/12/15 05:38:49 [error] 3988#2300: CreateFile() "E:\Dimlom\Diplom\Web\src\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/15 05:40:02 [error] 23936#4544: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", upstream: "http://[::1]:8080/api", host: "localhost"
+2023/12/15 05:40:22 [error] 23936#4544: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/order/ HTTP/1.1", upstream: "http://[::1]:8080/api/order/", host: "localhost"
+2023/12/15 05:42:57 [notice] 8368#3868: signal process started
+2023/12/15 05:44:13 [notice] 28572#16180: signal process started
+2023/12/15 05:44:13 [error] 28572#16180: CreateFile() "E:\Dimlom\Diplom\Web\src\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/15 05:44:24 [error] 1116#11268: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/order/ HTTP/1.1", upstream: "http://[::1]:8080/api/order/", host: "localhost"
+2023/12/15 05:46:37 [notice] 27932#5936: signal process started
+2023/12/15 05:47:26 [error] 9260#23236: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/order/ HTTP/1.1", upstream: "http://[::1]:8080/api/order/", host: "localhost"
+2023/12/15 05:48:40 [emerg] 29860#1116: invalid location modifier "../" in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:42
+2023/12/15 05:49:06 [emerg] 872#30084: invalid number of arguments in "location" directive in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:42
+2023/12/15 05:54:38 [notice] 7184#25692: signal process started
+2023/12/15 06:00:02 [notice] 6264#28560: signal process started
+2023/12/15 06:03:52 [notice] 25324#3560: signal process started
+2023/12/15 06:04:17 [notice] 1100#8484: signal process started
+2023/12/15 06:07:43 [notice] 16184#9876: signal process started
+2023/12/15 06:09:54 [emerg] 29868#30000: invalid variable name in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:43
+2023/12/15 06:11:03 [notice] 3328#27228: signal process started
+2023/12/15 06:11:34 [emerg] 25692#30516: unknown "www" variable
+2023/12/15 06:11:45 [emerg] 24456#13716: unknown "www_root" variable
+2023/12/15 06:13:12 [notice] 10760#3548: signal process started
+2023/12/15 06:13:15 [error] 22380#24012: *55 directory index of "./www/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/15 06:13:16 [error] 22380#24012: *55 directory index of "./www/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/15 06:13:56 [notice] 30504#30076: signal process started
+2023/12/15 06:13:57 [error] 22380#24012: *56 directory index of "./www/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/15 06:13:58 [error] 22380#24012: *57 directory index of "./www/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/15 06:14:07 [notice] 30028#13440: signal process started
+2023/12/15 06:14:23 [error] 29472#27312: *62 CreateFile() "E:/static/style" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static HTTP/1.1", host: "localhost"
+2023/12/15 06:14:32 [error] 29472#27312: *62 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/order HTTP/1.1", upstream: "http://[::1]:8080/api/order", host: "localhost"
+2023/12/15 06:22:44 [notice] 13788#29668: signal process started
+2023/12/15 06:23:41 [emerg] 19484#328: unexpected "}" in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:45
+2023/12/15 06:23:57 [emerg] 30712#27040: "alias" directive is duplicate, "root" directive was specified earlier in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:44
+2023/12/15 06:24:07 [notice] 13864#29872: signal process started
+2023/12/15 06:26:37 [notice] 24964#7556: signal process started
+2023/12/15 06:27:46 [notice] 19484#21436: signal process started
+2023/12/15 06:28:02 [notice] 28140#29840: signal process started
+2023/12/15 06:28:24 [notice] 29892#7376: signal process started
+2023/12/15 06:28:34 [notice] 28308#13376: signal process started
+2023/12/15 06:28:53 [notice] 13384#22256: signal process started
+2023/12/15 06:29:29 [notice] 10824#2116: signal process started
+2023/12/15 06:29:43 [notice] 16688#26328: signal process started
+2023/12/15 06:31:05 [notice] 21140#29472: signal process started
+2023/12/15 06:31:21 [notice] 29552#14512: signal process started
+2023/12/15 06:31:55 [error] 30280#26516: *116 CreateFile() "E:/static/style/style.css" failed (3: The system cannot find the path specified), client: ::1, server: localhost, request: "GET /static/style/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/15 06:31:56 [error] 30280#26516: *115 CreateFile() "E:/static/style/style.css" failed (3: The system cannot find the path specified), client: ::1, server: localhost, request: "GET /static/style/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/15 06:32:02 [error] 30280#26516: *114 CreateFile() "E:/static/style/style.css" failed (3: The system cannot find the path specified), client: ::1, server: localhost, request: "GET /static/style/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/15 06:32:08 [error] 30280#26516: *117 CreateFile() "E:/static/style/style.css" failed (3: The system cannot find the path specified), client: ::1, server: localhost, request: "GET /static/style/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/15 06:32:09 [error] 30280#26516: *116 CreateFile() "E:/static/style/style.css" failed (3: The system cannot find the path specified), client: ::1, server: localhost, request: "GET /static/style/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/15 06:32:09 [error] 30280#26516: *115 CreateFile() "E:/static/style/style.css" failed (3: The system cannot find the path specified), client: ::1, server: localhost, request: "GET /static/style/style.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/15 06:32:29 [notice] 29756#29312: signal process started
+2023/12/15 06:33:56 [notice] 17960#14164: signal process started
+2023/12/15 06:35:07 [notice] 3324#24216: signal process started
+2023/12/15 06:35:13 [notice] 27324#8724: signal process started
+2023/12/15 08:58:30 [error] 3684#22120: *150 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: ::1, server: localhost, request: "GET /api/order HTTP/1.1", upstream: "http://[::1]:8080/api/order", host: "localhost"
+2023/12/15 09:14:51 [emerg] 28388#9616: unknown directive "lua_package_path" in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:21
+2023/12/15 09:14:59 [notice] 4980#22320: signal process started
+2023/12/15 09:15:08 [error] 31876#18320: *155 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", upstream: "http://[::1]:8080/api/order/", host: "localhost"
+2023/12/15 09:21:35 [emerg] 11424#27348: unknown directive "js_set" in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:50
+2023/12/15 09:22:09 [emerg] 26912#29272: "load_module" directive is not allowed here in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:20
+2023/12/15 09:22:33 [emerg] 20484#29296: "load_module" directive is specified too late in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:16
+2023/12/15 09:22:58 [emerg] 24872#6380: "load_module" directive is specified too late in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:16
+2023/12/15 09:23:22 [emerg] 27760#31268: "load_module" directive is specified too late in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:16
+2023/12/15 09:30:24 [error] 31876#18320: *162 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", upstream: "http://[::1]:8080/api/order/", host: "localhost"
+2023/12/15 09:30:33 [emerg] 31320#3716: unknown directive "js_import" in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:18
+2023/12/15 09:46:17 [emerg] 26732#30848: unknown directive "js_import" in E:\Dimlom\Diplom\Web\src\nginx/conf/nginx.conf:18
+2023/12/15 09:46:26 [notice] 30132#18296: signal process started
+2023/12/15 09:46:36 [error] 3544#29980: *166 auth request unexpected status: 404, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", host: "localhost"
+2023/12/15 09:46:38 [error] 3544#29980: *167 auth request unexpected status: 404, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", host: "localhost"
+2023/12/15 09:47:08 [error] 3544#29980: *168 auth request unexpected status: 404, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", host: "localhost"
+2023/12/15 09:47:09 [error] 3544#29980: *169 auth request unexpected status: 404, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", host: "localhost"
+2023/12/15 10:06:18 [notice] 24252#25008: signal process started
+2023/12/15 10:06:27 [error] 14220#32100: *171 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", subrequest: "/auth", upstream: "http://[::1]:8080/api/order", host: "localhost"
+2023/12/15 10:06:27 [error] 14220#32100: *171 auth request unexpected status: 301 while sending to client, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", host: "localhost"
+2023/12/15 10:06:28 [error] 14220#32100: *172 auth request unexpected status: 301 while sending to client, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", host: "localhost"
+2023/12/15 10:06:41 [error] 14220#32100: *175 auth request unexpected status: 301 while sending to client, client: ::1, server: localhost, request: "GET /api/order/ HTTP/1.1", host: "localhost"
+2023/12/15 10:06:45 [error] 14220#32100: *177 auth request unexpected status: 301 while sending to client, client: ::1, server: localhost, request: "GET /api HTTP/1.1", host: "localhost"
